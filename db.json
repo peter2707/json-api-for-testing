@@ -1,71 +1,29 @@
 {
     "questions": [
         {
-            "id": "0001",
+            "id": 1,
             "qtype": "text",
-            "question": "What is your name"
+            "question": "What is your name?"
         },
         {
-            "id": "0002",
+            "id": 2,
             "qtype": "radio",
-            "question": "This is a single choice question",
-            "options": [
-                {
-                    "id": "0001",
-                    "text": "option 1"
-                },
-                {
-                    "id": "0002",
-                    "text": "option 2"
-                },
-                {
-                    "id": "0003",
-                    "text": "option 3"
-                }
+            "question": "Which programming language do you prefer?",
+            "choices": [
+                "JavaScript",
+                "Python",
+                "Java"
             ]
         },
         {
-            "id": "0003",
-            "qtype": "alternet",
-            "question": "Who are your friends",
-            "options": [
-                {
-                    "id": "0001",
-                    "text": "Johnd Doe",
-                    "studentId": "645c72da98cbed78ec205585"
-                },
-                {
-                    "id": "0002",
-                    "text": "Jande Doe",
-                    "studentId": "645c735298cbed78ec205586"
-                },
-                {
-                    "id": "0003",
-                    "text": "James Smith",
-                    "studentId": "645c735298cbed78ec205587"
-                }
-            ]
-        },
-        {
-            "id": "0004",
-            "qtype": "alteralternet",
-            "question": "Friends of Friends",
-            "options": [
-                {
-                    "id": "0001",
-                    "studentId": "645c72da98cbed78ec205585",
-                    "text": "john doe"
-                },
-                {
-                    "id": "0002",
-                    "studentId": "645c735298cbed78ec205586",
-                    "text": "jane doe"
-                },
-                {
-                    "id": "0003",
-                    "studentId": "645c735298cbed78ec205587",
-                    "text": "justin doe"
-                }
+            "id": 3,
+            "qtype": "multiple_choice",
+            "question": "Which fruits do you like?",
+            "choices": [
+                "Apple",
+                "Banana",
+                "Orange",
+                "Mango"
             ]
         }
     ],
