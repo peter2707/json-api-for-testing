@@ -27,7 +27,7 @@
             ]
         }
     ],
-    "data": {
+    "student-relationship": {
         "students": [
             { "studentId": 1, "name": "Alice", "group": "A" },
             { "studentId": 2, "name": "Bob", "group": "A" },
