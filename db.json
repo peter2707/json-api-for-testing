@@ -29,5 +29,31 @@
     ],
     "profile": {
         "name": "peter"
-    }
+    },
+    "students": [
+        {"id": 1, "name": "Alice", "group": "A"},
+        {"id": 2, "name": "Bob", "group": "A"},
+        {"id": 3, "name": "Charlie", "group": "B"},
+        {"id": 4, "name": "David", "group": "B"},
+        {"id": 5, "name": "Eve", "group": "C"},
+        {"id": 6, "name": "Frank", "group": "C"},
+        {"id": 7, "name": "Grace", "group": "C"},
+        {"id": 8, "name": "Henry", "group": "D"},
+        {"id": 9, "name": "Isabella", "group": "D"},
+        {"id": 10, "name": "Jack", "group": "D"}
+    ],
+    "relationships": [
+        {"from": 1, "to": 2, "type": "friend"},
+        {"from": 2, "to": 3, "type": "friend"},
+        {"from": 3, "to": 4, "type": "friend"},
+        {"from": 4, "to": 5, "type": "friend"},
+        {"from": 5, "to": 6, "type": "friend"},
+        {"from": 6, "to": 7, "type": "friend"},
+        {"from": 7, "to": 1, "type": "friend"},
+        {"from": 2, "to": 5, "type": "friend"},
+        {"from": 4, "to": 6, "type": "friend"},
+        {"from": 8, "to": 9, "type": "friend"},
+        {"from": 9, "to": 10, "type": "friend"},
+        {"from": 10, "to": 8, "type": "friend"}
+    ]
 }
