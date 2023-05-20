@@ -1,58 +1,226 @@
 {
     "questions": [
-        {
-            "id": 1,
-            "qtype": "text",
-            "question": "What is your name?"
-        },
-        {
-            "id": 2,
-            "qtype": "radio",
-            "question": "Which programming language do you prefer?",
-            "choices": [
-                "JavaScript",
-                "Python",
-                "Java"
-            ]
-        },
-        {
-            "id": 3,
-            "qtype": "multiple_choice",
-            "question": "Which fruits do you like?",
-            "choices": [
-                "Apple",
-                "Banana",
-                "Orange",
-                "Mango"
-            ]
-        }
+      {
+        "id": 1,
+        "qtype": "text",
+        "question": "What is your name?"
+      },
+      {
+        "id": 2,
+        "qtype": "radio",
+        "question": "Which programming language do you prefer?",
+        "choices": [
+          "JavaScript",
+          "Python",
+          "Java"
+        ]
+      },
+      {
+        "id": 3,
+        "qtype": "multiple_choice",
+        "question": "Which fruits do you like?",
+        "choices": [
+          "Apple",
+          "Banana",
+          "Orange",
+          "Mango"
+        ]
+      },
+      {
+        "id": 4,
+        "qtype": "text",
+        "question": "How would you describe your study performance?"
+      },
+      {
+        "id": 5,
+        "qtype": "radio",
+        "question": "Do you participate in extracurricular activities?",
+        "choices": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "id": 6,
+        "qtype": "multiple_choice",
+        "question": "Which extracurricular activities do you participate in?",
+        "choices": [
+          "Sports",
+          "Music",
+          "Art",
+          "Drama",
+          "Debate"
+        ]
+      },
+      {
+        "id": 7,
+        "qtype": "text",
+        "question": "What do you enjoy most about school?"
+      },
+      {
+        "id": 8,
+        "qtype": "text",
+        "question": "What challenges do you face in your school life?"
+      },
+      {
+        "id": 9,
+        "qtype": "radio",
+        "question": "How would you rate your social life at school?",
+        "choices": [
+          "Excellent",
+          "Good",
+          "Average",
+          "Poor"
+        ]
+      }
     ],
     "student-relationship": {
-        "students": [
-            { "studentId": 1, "name": "Alice", "group": "A" },
-            { "studentId": 2, "name": "Bob", "group": "A" },
-            { "studentId": 3, "name": "Charlie", "group": "B" },
-            { "studentId": 4, "name": "David", "group": "B" },
-            { "studentId": 5, "name": "Eve", "group": "C" },
-            { "studentId": 6, "name": "Frank", "group": "C" },
-            { "studentId": 7, "name": "Grace", "group": "C" },
-            { "studentId": 8, "name": "Henry", "group": "D" },
-            { "studentId": 9, "name": "Isabella", "group": "D" },
-            { "studentId": 10, "name": "Jack", "group": "D" }
-        ],
-        "relationships": [
-            { "from": 1, "to": 2, "type": "friend" },
-            { "from": 2, "to": 3, "type": "friend" },
-            { "from": 3, "to": 4, "type": "friend" },
-            { "from": 4, "to": 5, "type": "friend" },
-            { "from": 5, "to": 6, "type": "friend" },
-            { "from": 6, "to": 7, "type": "friend" },
-            { "from": 7, "to": 1, "type": "friend" },
-            { "from": 2, "to": 5, "type": "friend" },
-            { "from": 4, "to": 6, "type": "friend" },
-            { "from": 8, "to": 9, "type": "friend" },
-            { "from": 9, "to": 10, "type": "friend" },
-            { "from": 10, "to": 8, "type": "friend" }
-        ]
-    }
-}
+      "students": [
+        {
+          "studentId": 1,
+          "name": "Alice",
+          "group": "A"
+        },
+        {
+          "studentId": 2,
+          "name": "Bob",
+          "group": "A"
+        },
+        {
+          "studentId": 3,
+          "name": "Charlie",
+          "group": "B"
+        },
+        {
+          "studentId": 4,
+          "name": "David",
+          "group": "B"
+        },
+        {
+          "studentId": 5,
+          "name": "Eve",
+          "group": "C"
+        },
+        {
+          "studentId": 6,
+          "name": "Frank",
+          "group": "C"
+        },
+        {
+          "studentId": 7,
+          "name": "Grace",
+          "group": "C"
+        },
+        {
+          "studentId": 8,
+          "name": "Henry",
+          "group": "D"
+        },
+        {
+          "studentId": 9,
+          "name": "Isabella",
+          "group": "D"
+        },
+        {
+          "studentId": 10,
+          "name": "Jack",
+          "group": "D"
+        }
+      ],
+      "relationships": [
+        {
+          "from": 1,
+          "to": 2,
+          "type": "friend"
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "type": "friend"
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "type": "friend"
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "type": "friend"
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "type": "friend"
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "type": "friend"
+        },
+        {
+          "from": 7,
+          "to": 1,
+          "type": "friend"
+        },
+        {
+          "from": 2,
+          "to": 5,
+          "type": "friend"
+        },
+        {
+          "from": 4,
+          "to": 6,
+          "type": "friend"
+        },
+        {
+          "from": 8,
+          "to": 9,
+          "type": "friend"
+        },
+        {
+          "from": 9,
+          "to": 10,
+          "type": "friend"
+        },
+        {
+          "from": 10,
+          "to": 8,
+          "type": "friend"
+        }
+      ]
+    },
+    "users": [
+      {
+        "id": 1,
+        "firstName": "John",
+        "lastName": "Doe",
+        "gender": "Male",
+        "email": "john.doe@example.com",
+        "password": "password123",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "postcode": "10001",
+        "type": "student",
+        "schoolName": "ABC School",
+        "studentId": "S123456"
+      },
+      {
+        "id": 2,
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "gender": "Female",
+        "email": "jane.smith@example.com",
+        "password": "password456",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "postcode": "90001",
+        "type": "staff",
+        "organisationName": "XYZ Organization",
+        "staffId": "ST7890"
+      }
+    ]
+  }
+  
