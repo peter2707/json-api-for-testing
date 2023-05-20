@@ -72,6 +72,12 @@
           "Average",
           "Poor"
         ]
+      },
+      {
+        "id": 10,
+        "qtype": "friend_details",
+        "question": "Enter your friend's details:",
+        "friendCount": 1
       }
     ],
     "student-relationship": {
