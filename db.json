@@ -2,7 +2,7 @@
     "questions": [
         {
             "id": 1,
-            "qtype": "multiple_choice",
+            "qtype": "radio",
             "question": "Do you have friends?",
             "choices": [
                 "Yes",
@@ -27,7 +27,7 @@
         },
         {
             "id": 4,
-            "qtype": "multiple_choice",
+            "qtype": "radio",
             "question": "Do you find it easy to make good friends?",
             "choices": [
                 "Yes",
@@ -48,7 +48,7 @@
         },
         {
             "id": 6,
-            "qtype": "multiple_choice",
+            "qtype": "radio",
             "question": "How many hours do you spend time with your friend(s) per week?",
             "choices": [
                 "1-4",
@@ -59,7 +59,7 @@
         },
         {
             "id": 7,
-            "qtype": "multiple_choice",
+            "qtype": "radio",
             "question": "Do you trust your friends?",
             "choices": [
                 "Yes",
@@ -68,7 +68,7 @@
         },
         {
             "id": 8,
-            "qtype": "multiple_choice",
+            "qtype": "radio",
             "question": "Do you feel emotionally attached to your friends?",
             "choices": [
                 "Yes",
@@ -83,6 +83,25 @@
                 "Yes",
                 "No"
             ]
+        },
+        {
+            "id": 10,
+            "qtype": "multiple_choice",
+            "question": "Do you easily ask teachers and other adults to help with friendship problems?",
+            "choices": [
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "id": 11,
+            "qtype": "text",
+            "question": "What do you share with your friends the most?"
+        },
+        {
+            "id": 12,
+            "qtype": "text",
+            "question": "What, if anything, makes friendships valuable?"
         }
     ],
     "student-relationship": {
