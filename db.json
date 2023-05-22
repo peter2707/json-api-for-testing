@@ -307,31 +307,15 @@
             "id": 1,
             "firstName": "John",
             "lastName": "Doe",
-            "gender": "Male",
             "email": "john.doe@example.com",
-            "password": "password123",
-            "address": "123 Main St",
-            "city": "New York",
-            "state": "NY",
-            "postcode": "10001",
-            "type": "student",
-            "schoolName": "ABC School",
-            "studentId": "S123456"
+            "password": "password123"
         },
         {
             "id": 2,
             "firstName": "Jane",
             "lastName": "Smith",
-            "gender": "Female",
             "email": "jane.smith@example.com",
-            "password": "password456",
-            "address": "456 Elm St",
-            "city": "Los Angeles",
-            "state": "CA",
-            "postcode": "90001",
-            "type": "staff",
-            "organisationName": "XYZ Organization",
-            "staffId": "ST7890"
+            "password": "password456"
         }
     ]
 }
