@@ -1,188 +1,87 @@
 {
-    "surveys": [
+    "questions": [
         {
             "id": 1,
-            "name": "Student Engagement",
-            "questions": [
-                {
-                    "id": 1,
-                    "qtype": "multiple_choice",
-                    "question": "How did you find this month’s course load?",
-                    "choices": [
-                        "easy",
-                        "relatively easy",
-                        "difficult",
-                        "very difficult"
-                    ]
-                },
-                {
-                    "id": 2,
-                    "qtype": "multiple_choice",
-                    "question": "To what extent do you agree or disagree with the statement: I found value in what I have been learning so far this month?",
-                    "choices": [
-                        "I agree",
-                        "I somewhat agree",
-                        "I was not paying attention",
-                        "Disagree"
-                    ]
-                },
-                {
-                    "id": 3,
-                    "qtype": "multiple_choice",
-                    "question": "Do you feel focused in your class?",
-                    "choices": [
-                        "Yes",
-                        "No"
-                    ]
-                },
-                {
-                    "id": 4,
-                    "qtype": "multiple_choice",
-                    "question": "Do you feel this month’s learning was exciting?",
-                    "choices": [
-                        "Yes",
-                        "No"
-                    ]
-                },
-                {
-                    "id": 5,
-                    "qtype": "text",
-                    "question": "What could compel students to participate in class discussions?"
-                },
-                {
-                    "id": 6,
-                    "qtype": "text",
-                    "question": "What more resources do you think the college should offer?"
-                },
-                {
-                    "id": 7,
-                    "qtype": "multiple_choice",
-                    "question": "During the last 3 months, which of the following have you done?",
-                    "choices": [
-                        "I have approached a school representative for advice or guidance",
-                        "I have participated in a school activity",
-                        "I have attended a social event organized by the college"
-                    ]
-                },
-                {
-                    "id": 8,
-                    "qtype": "multiple_choice",
-                    "question": "How many hours a week do you spend participating in the school’s extracurricular activities?",
-                    "choices": [
-                        "Less than 2 hours",
-                        "2-3 hours",
-                        "3-4 hours",
-                        "4-5 hours",
-                        "More than 5 hours"
-                    ]
-                },
-                {
-                    "id": 9,
-                    "qtype": "multiple_choice",
-                    "question": "Overall, how interested are you in your classes?",
-                    "choices": [
-                        "Very interested",
-                        "Interested",
-                        "Neutral",
-                        "Not interested",
-                        "Not at all interested"
-                    ]
-                },
-                {
-                    "id": 10,
-                    "qtype": "text",
-                    "question": "Which aspects of the class do you find least engaging?"
-                }
+            "qtype": "multiple_choice",
+            "question": "Do you have friends?",
+            "choices": [
+                "Yes",
+                "No"
             ]
         },
         {
             "id": 2,
-            "name": "Friend Survey",
-            "questions": [
-                {
-                    "id": 1,
-                    "qtype": "multiple_choice",
-                    "question": "Do you have friends?",
-                    "choices": [
-                        "Yes",
-                        "No"
-                    ]
-                },
-                {
-                    "id": 2,
-                    "qtype": "friend_details",
-                    "question": "Enter your friend's details:",
-                    "friendCount": 1
-                },
-                {
-                    "id": 3,
-                    "qtype": "friend_of_friends",
-                    "question": "Select the friends that you know:",
-                    "choices": [
-                        "Mary",
-                        "Alice",
-                        "Alan"
-                    ]
-                },
-                {
-                    "id": 4,
-                    "qtype": "multiple_choice",
-                    "question": "Do you find it easy to make good friends?",
-                    "choices": [
-                        "Yes",
-                        "No"
-                    ]
-                },
-                {
-                    "id": 5,
-                    "qtype": "multiple_choice",
-                    "question": "Why do you become friends with someone?",
-                    "choices": [
-                        "Similar/same hobbies",
-                        "Same goals",
-                        "Good personalities",
-                        "Good condition (reputation, good looking, etc.)",
-                        "Other"
-                    ]
-                },
-                {
-                    "id": 6,
-                    "qtype": "multiple_choice",
-                    "question": "How many hours do you spend time with your friend(s) per week?",
-                    "choices": [
-                        "1-4",
-                        "5-8",
-                        "8-11",
-                        "More than 11"
-                    ]
-                },
-                {
-                    "id": 7,
-                    "qtype": "multiple_choice",
-                    "question": "Do you trust your friends?",
-                    "choices": [
-                        "Yes",
-                        "No"
-                    ]
-                },
-                {
-                    "id": 8,
-                    "qtype": "multiple_choice",
-                    "question": "Do you feel emotionally attached to your friends?",
-                    "choices": [
-                        "Yes",
-                        "No"
-                    ]
-                },
-                {
-                    "id": 9,
-                    "qtype": "multiple_choice",
-                    "question": "Do you often argue with your friends?",
-                    "choices": [
-                        "Yes",
-                        "No"
-                    ]
-                }
+            "qtype": "friend_details",
+            "question": "Enter your friend's details:",
+            "friendCount": 1
+        },
+        {
+            "id": 3,
+            "qtype": "friend_of_friends",
+            "question": "Select the friends that you know:",
+            "choices": [
+                "Mary",
+                "Alice",
+                "Alan"
+            ]
+        },
+        {
+            "id": 4,
+            "qtype": "multiple_choice",
+            "question": "Do you find it easy to make good friends?",
+            "choices": [
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "id": 5,
+            "qtype": "multiple_choice",
+            "question": "Why do you become friends with someone?",
+            "choices": [
+                "Similar/same hobbies",
+                "Same goals",
+                "Good personalities",
+                "Good condition (reputation, good looking, etc.)",
+                "Other"
+            ]
+        },
+        {
+            "id": 6,
+            "qtype": "multiple_choice",
+            "question": "How many hours do you spend time with your friend(s) per week?",
+            "choices": [
+                "1-4",
+                "5-8",
+                "8-11",
+                "More than 11"
+            ]
+        },
+        {
+            "id": 7,
+            "qtype": "multiple_choice",
+            "question": "Do you trust your friends?",
+            "choices": [
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "id": 8,
+            "qtype": "multiple_choice",
+            "question": "Do you feel emotionally attached to your friends?",
+            "choices": [
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "id": 9,
+            "qtype": "multiple_choice",
+            "question": "Do you often argue with your friends?",
+            "choices": [
+                "Yes",
+                "No"
             ]
         }
     ],
