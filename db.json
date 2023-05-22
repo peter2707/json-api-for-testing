@@ -92,35 +92,6 @@
                     "id": 10,
                     "qtype": "text",
                     "question": "Which aspects of the class do you find least engaging?"
-                },
-                {
-                    "id": 11,
-                    "qtype": "text",
-                    "question": "How do you know when you are feeling engaged in your class?"
-                },
-                {
-                    "id": 12,
-                    "qtype": "text",
-                    "question": "How keen are you to participate in your class activities and discussions?"
-                },
-                {
-                    "id": 13,
-                    "qtype": "text",
-                    "question": "What aspects of the school do you like the most?"
-                },
-                {
-                    "id": 14,
-                    "qtype": "text",
-                    "question": "What aspects of the school do you dislike the most?"
-                },
-                {
-                    "id": 15,
-                    "qtype": "multiple_choice",
-                    "question": "Is it easy for you to stay focused on your classes?",
-                    "choices": [
-                        "Yes",
-                        "No"
-                    ]
                 }
             ]
         },
@@ -211,25 +182,6 @@
                         "Yes",
                         "No"
                     ]
-                },
-                {
-                    "id": 10,
-                    "qtype": "multiple_choice",
-                    "question": "Do you easily ask teachers and other adults to help with friendship problems?",
-                    "choices": [
-                        "Yes",
-                        "No"
-                    ]
-                },
-                {
-                    "id": 11,
-                    "qtype": "text",
-                    "question": "What do you share with your friends the most?"
-                },
-                {
-                    "id": 12,
-                    "qtype": "text",
-                    "question": "What, if anything, makes friendships valuable?"
                 }
             ]
         },
@@ -238,7 +190,7 @@
             "name": "Survey 3",
             "questions": [
                 {
-                    "id": 6,
+                    "id": 1,
                     "qtype": "multiple_choice",
                     "question": "On a scale of 0-10, please rate your teacher",
                     "choices": [
@@ -256,7 +208,7 @@
                     ]
                 },
                 {
-                    "id": 7,
+                    "id": 2,
                     "qtype": "multiple_choice",
                     "question": "How much time do you spend every day on homework?",
                     "choices": [
@@ -268,12 +220,12 @@
                     ]
                 },
                 {
-                    "id": 8,
+                    "id": 3,
                     "qtype": "text",
                     "question": "What are some achievements you’re proud of?"
                 },
                 {
-                    "id": 9,
+                    "id": 4,
                     "qtype": "multiple_choice",
                     "question": "Does your teacher encourage you to perform better?",
                     "choices": [
@@ -283,7 +235,7 @@
                     ]
                 },
                 {
-                    "id": 10,
+                    "id": 5,
                     "qtype": "multiple_choice",
                     "question": "How would you evaluate the overall academic experience you had with this professor in our university program?",
                     "choices": [
@@ -295,7 +247,7 @@
                     ]
                 },
                 {
-                    "id": 11,
+                    "id": 6,
                     "qtype": "multiple_choice",
                     "question": "Please share your agreement with this statement: “My teacher has fair rules for the class and is extremely impartial.”",
                     "choices": [
@@ -307,7 +259,7 @@
                     ]
                 },
                 {
-                    "id": 12,
+                    "id": 7,
                     "qtype": "multiple_choice",
                     "question": "Please share your agreement with this statement: “My teacher asks each one of us whether we have understood what she taught and helps us in case we have doubts.”",
                     "choices": [
@@ -319,7 +271,7 @@
                     ]
                 },
                 {
-                    "id": 13,
+                    "id": 8,
                     "qtype": "multiple_choice",
                     "question": "Does your teacher appreciate the times when you work hard towards scoring well in a test or performing well in extracurricular activities?",
                     "choices": [
@@ -329,7 +281,7 @@
                     ]
                 },
                 {
-                    "id": 14,
+                    "id": 9,
                     "qtype": "multiple_choice",
                     "question": "Does your teacher guide you in setting personal targets and developing strategies to achieve that target?",
                     "choices": [
@@ -340,7 +292,7 @@
                     ]
                 },
                 {
-                    "id": 15,
+                    "id": 10,
                     "qtype": "multiple_choice",
                     "question": "After each test, does your teacher help you in understanding ways to improve your grades?",
                     "choices": [
@@ -348,11 +300,6 @@
                         "Maybe",
                         "No"
                     ]
-                },
-                {
-                    "id": 16,
-                    "qtype": "text",
-                    "question": "Top 3 things that your teacher can improve"
                 }
             ]
         }
