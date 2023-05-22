@@ -77,7 +77,7 @@
         },
         {
             "id": 9,
-            "qtype": "multiple_choice",
+            "qtype": "radio",
             "question": "Do you often argue with your friends?",
             "choices": [
                 "Yes",
@@ -86,7 +86,7 @@
         },
         {
             "id": 10,
-            "qtype": "multiple_choice",
+            "qtype": "radio",
             "question": "Do you easily ask teachers and other adults to help with friendship problems?",
             "choices": [
                 "Yes",
