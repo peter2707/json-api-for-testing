@@ -1,105 +1,359 @@
 {
-    "questions": [
+    "surveys": [
         {
             "id": 1,
-            "qtype": "text",
-            "question": "What is your name?"
-        },
-        {
-            "id": 2,
-            "qtype": "radio",
-            "question": "Which programming language do you prefer?",
-            "choices": [
-                "JavaScript",
-                "Python",
-                "Java"
-            ]
-        },
-        {
-            "id": 3,
-            "qtype": "multiple_choice",
-            "question": "Which fruits do you like?",
-            "choices": [
-                "Apple",
-                "Banana",
-                "Orange",
-                "Mango"
-            ]
-        },
-        {
-            "id": 4,
-            "qtype": "text",
-            "question": "How would you describe your study performance?"
-        },
-        {
-            "id": 5,
-            "qtype": "radio",
-            "question": "Do you participate in extracurricular activities?",
-            "choices": [
-                "Yes",
-                "No"
-            ]
-        },
-        {
-            "id": 6,
-            "qtype": "multiple_choice",
-            "question": "Which extracurricular activities do you participate in?",
-            "choices": [
-                "Sports",
-                "Music",
-                "Art",
-                "Drama",
-                "Debate"
-            ]
-        },
-        {
-            "id": 7,
-            "qtype": "text",
-            "question": "What do you enjoy most about school?"
-        },
-        {
-            "id": 8,
-            "qtype": "text",
-            "question": "What challenges do you face in your school life?"
-        },
-        {
-            "id": 9,
-            "qtype": "radio",
-            "question": "How would you rate your social life at school?",
-            "choices": [
-                "Excellent",
-                "Good",
-                "Average",
-                "Poor"
-            ]
-        },
-        {
-            "id": 10,
-            "qtype": "friend_details",
-            "question": "Select your friends",
-            "friendOptions": [
+            "name": "Student Engagement",
+            "questions": [
                 {
                     "id": 1,
-                    "name": "John"
+                    "qtype": "multiple_choice",
+                    "question": "How did you find this month’s course load?",
+                    "choices": [
+                        "easy",
+                        "relatively easy",
+                        "difficult",
+                        "very difficult"
+                    ]
                 },
                 {
                     "id": 2,
-                    "name": "Alice"
+                    "qtype": "multiple_choice",
+                    "question": "To what extent do you agree or disagree with the statement: I found value in what I have been learning so far this month?",
+                    "choices": [
+                        "I agree",
+                        "I somewhat agree",
+                        "I was not paying attention",
+                        "Disagree"
+                    ]
                 },
                 {
                     "id": 3,
-                    "name": "Bob"
+                    "qtype": "multiple_choice",
+                    "question": "Do you feel focused in your class?",
+                    "choices": [
+                        "Yes",
+                        "No"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "qtype": "multiple_choice",
+                    "question": "Do you feel this month’s learning was exciting?",
+                    "choices": [
+                        "Yes",
+                        "No"
+                    ]
+                },
+                {
+                    "id": 5,
+                    "qtype": "text",
+                    "question": "What could compel students to participate in class discussions?"
+                },
+                {
+                    "id": 6,
+                    "qtype": "text",
+                    "question": "What more resources do you think the college should offer?"
+                },
+                {
+                    "id": 7,
+                    "qtype": "multiple_choice",
+                    "question": "During the last 3 months, which of the following have you done?",
+                    "choices": [
+                        "I have approached a school representative for advice or guidance",
+                        "I have participated in a school activity",
+                        "I have attended a social event organized by the college"
+                    ]
+                },
+                {
+                    "id": 8,
+                    "qtype": "multiple_choice",
+                    "question": "How many hours a week do you spend participating in the school’s extracurricular activities?",
+                    "choices": [
+                        "Less than 2 hours",
+                        "2-3 hours",
+                        "3-4 hours",
+                        "4-5 hours",
+                        "More than 5 hours"
+                    ]
+                },
+                {
+                    "id": 9,
+                    "qtype": "multiple_choice",
+                    "question": "Overall, how interested are you in your classes?",
+                    "choices": [
+                        "Very interested",
+                        "Interested",
+                        "Neutral",
+                        "Not interested",
+                        "Not at all interested"
+                    ]
+                },
+                {
+                    "id": 10,
+                    "qtype": "text",
+                    "question": "Which aspects of the class do you find least engaging?"
+                },
+                {
+                    "id": 11,
+                    "qtype": "text",
+                    "question": "How do you know when you are feeling engaged in your class?"
+                },
+                {
+                    "id": 12,
+                    "qtype": "text",
+                    "question": "How keen are you to participate in your class activities and discussions?"
+                },
+                {
+                    "id": 13,
+                    "qtype": "text",
+                    "question": "What aspects of the school do you like the most?"
+                },
+                {
+                    "id": 14,
+                    "qtype": "text",
+                    "question": "What aspects of the school do you dislike the most?"
+                },
+                {
+                    "id": 15,
+                    "qtype": "multiple_choice",
+                    "question": "Is it easy for you to stay focused on your classes?",
+                    "choices": [
+                        "Yes",
+                        "No"
+                    ]
                 }
             ]
         },
         {
-            "id": 6,
-            "qtype": "friend_of_friends",
-            "question": "Select the friends that you know:",
-            "choices": [
-                "Mary",
-                "Alice",
-                "Alan"
+            "id": 2,
+            "name": "Friend Survey",
+            "questions": [
+                {
+                    "id": 1,
+                    "qtype": "multiple_choice",
+                    "question": "Do you have friends?",
+                    "choices": [
+                        "Yes",
+                        "No"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "qtype": "friend_details",
+                    "question": "Enter your friend's details:",
+                    "friendCount": 1
+                },
+                {
+                    "id": 3,
+                    "qtype": "friend_of_friends",
+                    "question": "Select the friends that you know:",
+                    "choices": [
+                        "Mary",
+                        "Alice",
+                        "Alan"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "qtype": "multiple_choice",
+                    "question": "Do you find it easy to make good friends?",
+                    "choices": [
+                        "Yes",
+                        "No"
+                    ]
+                },
+                {
+                    "id": 5,
+                    "qtype": "multiple_choice",
+                    "question": "Why do you become friends with someone?",
+                    "choices": [
+                        "Similar/same hobbies",
+                        "Same goals",
+                        "Good personalities",
+                        "Good condition (reputation, good looking, etc.)",
+                        "Other"
+                    ]
+                },
+                {
+                    "id": 6,
+                    "qtype": "multiple_choice",
+                    "question": "How many hours do you spend time with your friend(s) per week?",
+                    "choices": [
+                        "1-4",
+                        "5-8",
+                        "8-11",
+                        "More than 11"
+                    ]
+                },
+                {
+                    "id": 7,
+                    "qtype": "multiple_choice",
+                    "question": "Do you trust your friends?",
+                    "choices": [
+                        "Yes",
+                        "No"
+                    ]
+                },
+                {
+                    "id": 8,
+                    "qtype": "multiple_choice",
+                    "question": "Do you feel emotionally attached to your friends?",
+                    "choices": [
+                        "Yes",
+                        "No"
+                    ]
+                },
+                {
+                    "id": 9,
+                    "qtype": "multiple_choice",
+                    "question": "Do you often argue with your friends?",
+                    "choices": [
+                        "Yes",
+                        "No"
+                    ]
+                },
+                {
+                    "id": 10,
+                    "qtype": "multiple_choice",
+                    "question": "Do you easily ask teachers and other adults to help with friendship problems?",
+                    "choices": [
+                        "Yes",
+                        "No"
+                    ]
+                },
+                {
+                    "id": 11,
+                    "qtype": "text",
+                    "question": "What do you share with your friends the most?"
+                },
+                {
+                    "id": 12,
+                    "qtype": "text",
+                    "question": "What, if anything, makes friendships valuable?"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Survey 3",
+            "questions": [
+                {
+                    "id": 6,
+                    "qtype": "multiple_choice",
+                    "question": "On a scale of 0-10, please rate your teacher",
+                    "choices": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7",
+                        "8",
+                        "9",
+                        "10"
+                    ]
+                },
+                {
+                    "id": 7,
+                    "qtype": "multiple_choice",
+                    "question": "How much time do you spend every day on homework?",
+                    "choices": [
+                        "<2 Hours",
+                        "2-3 Hours",
+                        "3-4 Hours",
+                        "4-5 Hours",
+                        ">5 Hours"
+                    ]
+                },
+                {
+                    "id": 8,
+                    "qtype": "text",
+                    "question": "What are some achievements you’re proud of?"
+                },
+                {
+                    "id": 9,
+                    "qtype": "multiple_choice",
+                    "question": "Does your teacher encourage you to perform better?",
+                    "choices": [
+                        "Yes, all the time",
+                        "Only sometimes",
+                        "No, not at all"
+                    ]
+                },
+                {
+                    "id": 10,
+                    "qtype": "multiple_choice",
+                    "question": "How would you evaluate the overall academic experience you had with this professor in our university program?",
+                    "choices": [
+                        "Very Dissatisfied",
+                        "Not Satisfied",
+                        "Neutral",
+                        "Satisfied",
+                        "Very Satisfied"
+                    ]
+                },
+                {
+                    "id": 11,
+                    "qtype": "multiple_choice",
+                    "question": "Please share your agreement with this statement: “My teacher has fair rules for the class and is extremely impartial.”",
+                    "choices": [
+                        "Strongly Agree",
+                        "Agree",
+                        "Neutral",
+                        "Disagree",
+                        "Strongly Disagree"
+                    ]
+                },
+                {
+                    "id": 12,
+                    "qtype": "multiple_choice",
+                    "question": "Please share your agreement with this statement: “My teacher asks each one of us whether we have understood what she taught and helps us in case we have doubts.”",
+                    "choices": [
+                        "Strongly Agree",
+                        "Agree",
+                        "Neutral",
+                        "Disagree",
+                        "Strongly Disagree"
+                    ]
+                },
+                {
+                    "id": 13,
+                    "qtype": "multiple_choice",
+                    "question": "Does your teacher appreciate the times when you work hard towards scoring well in a test or performing well in extracurricular activities?",
+                    "choices": [
+                        "Yes, she/he always appreciates my hard work",
+                        "Only sometimes",
+                        "No, she/he never appreciates my hard work"
+                    ]
+                },
+                {
+                    "id": 14,
+                    "qtype": "multiple_choice",
+                    "question": "Does your teacher guide you in setting personal targets and developing strategies to achieve that target?",
+                    "choices": [
+                        "Yes, she/he always guides me to set targets",
+                        "In most situations, she/he guides me to set targets",
+                        "She/he rarely guides me to set targets",
+                        "No, she/he never guides me to set targets"
+                    ]
+                },
+                {
+                    "id": 15,
+                    "qtype": "multiple_choice",
+                    "question": "After each test, does your teacher help you in understanding ways to improve your grades?",
+                    "choices": [
+                        "Yes",
+                        "Maybe",
+                        "No"
+                    ]
+                },
+                {
+                    "id": 16,
+                    "qtype": "text",
+                    "question": "Top 3 things that your teacher can improve"
+                }
             ]
         }
     ],
